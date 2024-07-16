@@ -1,0 +1,48 @@
+# 忽略所有 .o 和 .obj 文件，这些是编译产生的对象文件
+*.o
+*.obj
+
+# 忽略所有 .a、.lib 和 .dll 文件，这些是静态库和动态链接库文件
+*.a
+*.lib
+*.dll
+
+# 忽略所有 .so 文件，这些是共享库文件
+*.so
+
+# 忽略所有 .dSYM 文件，这些是 macOS 中的调试符号信息
+*.dSYM/
+
+# 忽略所有 .exe 文件，这些是可执行文件
+*.exe
+
+# 忽略所有 .swp 和 .swo 文件，这些是 Vim 编辑器产生的交换文件
+*.swp
+*.swo
+
+# 忽略所有 .DS_Store 文件，这些是 macOS 的目录属性文件
+.DS_Store
+
+# 忽略所有 __pycache__ 目录，这些是 Python 编译的字节码文件
+__pycache__/
+
+# 忽略所有 .idea 目录，这些是 IntelliJ IDEA 的项目设置文件
+.idea/
+
+# 忽略所有 .vscode 目录，这些是 Visual Studio Code 的用户设置
+.vscode/
+
+# 忽略所有 log 文件
+*.log
+
+# 忽略所有 tmp 目录，这些是临时文件
+tmp/
+
+# 忽略所有 build 目录，这些是编译输出目录
+build/
+
+# 忽略所有 dist 目录，这些是打包输出目录
+dist/
+
+# 忽略所有 node_modules 目录，这些是 Node.js 的依赖包
+node_modules/
